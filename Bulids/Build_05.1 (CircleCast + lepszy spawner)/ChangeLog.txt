@@ -1,0 +1,6 @@
+- CircleCast przy strzelaniu z miniguna (3)
+- mozna strzelac tylko do najblizszych zombie (pierwszych w lini gracz-myszka)
+- czerwona strefa zabroniona dla gracza
+- 3 typy przeciwnikow
+- udoskonalony spawner z losowanymi przeciwnikami
+- szanse na pojawienie sie siliniejszych przeciwnikow rosna wraz z iloscia przeciwnikow zespawnowanych
