@@ -3,8 +3,7 @@
 * pociski reaguja na niewidzialne sciany //zmien w project setings
 * luski znikaja za szybko
 * circleColider nie ustawia sie na pozycji myszki jak masz myszke za minigunem (miedzy graczem a gunem) // daj if jak jest za to ustaw target na firepoint.position
-* wywal RB bo optymalizacja lezy
-* bronie nie zadaja dmg(zmien w skryptach zombi na zombieV2)
+* wywal RB bo optymalizacja lezy // mo¿e navmesh + RB bedzie ok
 * w tracerParticle pocisk zaslania dym
 
 
