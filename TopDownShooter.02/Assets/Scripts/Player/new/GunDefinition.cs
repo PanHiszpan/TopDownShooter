@@ -10,6 +10,8 @@ public class GunDefinition : MonoBehaviour
     public float angle = 1;
     public int magazineSize;
     public int bulletsLeft;
+    private int ammoNeeded = 0;
+    public int ammoAll;
     public float reloadTime;
     public Transform firePoint;
     public GameObject shootEffect;
@@ -31,12 +33,22 @@ public class GunDefinition : MonoBehaviour
         shooting = false;
         bulletsLeft = magazineSize;
         sceneMenager.setAmmo(bulletsLeft);
+        sceneMenager.setAmmoAll(ammoAll);
     }
     private void Update()
     {
         if (Input.GetButtonDown("Reload") && !reloading && Time.timeScale != 0)
         {
-            StartCoroutine(Reload());
+            //sprawdza czy zostalo ammo w plecaku
+            if (ammoAll > 0)
+            {
+                StartCoroutine(Reload());
+            }
+            else
+            {
+                Debug.Log("Out of ammo!");
+            }
+
         }
         if (Input.GetButton("Aim")) //sprawdza czy celujesz
         {
@@ -63,8 +75,21 @@ public class GunDefinition : MonoBehaviour
     {
         reloading = true;
         yield return new WaitForSeconds(reloadTime);
-        bulletsLeft = magazineSize;
+        ammoNeeded = magazineSize - bulletsLeft;
+        //zwiększa ammo w broni o 1 magazynek albo to co zostalo
+        if (ammoNeeded <= ammoAll)
+        {
+            ammoAll -= ammoNeeded;
+            bulletsLeft += ammoNeeded;
+        }
+        else
+        {
+            bulletsLeft += ammoAll;
+            ammoAll = 0;
+        }
+
         sceneMenager.setAmmo(bulletsLeft);
+        sceneMenager.setAmmoAll(ammoAll);
         reloading = false;
     }
     protected virtual IEnumerator ShootOrder()
@@ -113,6 +138,7 @@ public class GunDefinition : MonoBehaviour
     {
         sceneMenager = FindObjectOfType<SceneMenager>();
         sceneMenager.setAmmo(bulletsLeft);
+        sceneMenager.setAmmoAll(ammoAll);
     }
     void OnDisable()
     {

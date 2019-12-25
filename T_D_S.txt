@@ -2,11 +2,12 @@
 * zombie nie reaguja na sciany
 * pociski reaguja na niewidzialne sciany //zmien w project setings
 * luski znikaja za szybko
-* circleColider nie ustawia sie na pozycji myszki jak masz myszke za minigunem (miedzy graczem a gunem) // daj if jak jest za to ustaw target na firepoint.position
+* circleColider nie ustawia sie na pozycji myszki jak masz myszke za minigunem (miedzy graczem a gunem) // daj if jak jest za to ustaw target na firepoint.position, potrzebne do railgunu
 * wywal RB bo optymalizacja lezy // mo¿e navmesh + RB bedzie ok
-* w tracerParticle pocisk zaslania dym
+* w tracerParticle pocisk zaslania dym //jest ok na razie?
 
 
+- w koncu zmien grafiki na pixelart (16x16bit brzmi ok)
 - dynamiczny celownik
 - dokoncz resze broni z dziedziczenia GunDefinition (pistol na pewno)
 - optymalizacja krwi i jej particli (1 plama rozlana z kierunku trafienia, zobacz notke)
@@ -15,7 +16,6 @@
 - zmian laser na particle (dodaj light) //na razie jest spoko
 - dzialko zamrazajace
 - pajaki, plucie kwasem etc.
-- ammo i przeladowanie //reload jest
 - barykady i wyszukiwanie drogi (obczaj navmesh)
 - drop broni i bonusow
 - sklep co runde?

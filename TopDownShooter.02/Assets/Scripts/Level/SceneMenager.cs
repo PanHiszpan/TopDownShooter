@@ -6,6 +6,8 @@ using UnityEngine.UI;
 
 public class SceneMenager : MonoBehaviour
 {
+    public Text ammoAllText;
+
     public Text ammoText;
 
     public Text healthText;
@@ -53,6 +55,10 @@ public class SceneMenager : MonoBehaviour
     public void setAmmo(int ammo)
     {
         ammoText.text = "" + ammo;
+    }
+    public void setAmmoAll(int ammoAll)
+    {
+        ammoAllText.text = "" + ammoAll;
     }
     void setScore()
     { 

@@ -1,7 +1,6 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
-    - AreaGun
     - AreaGunRC
     - Arsenal
     - BloodBigger
@@ -103,61 +102,59 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 10736}
     - Class: 114
-      Script: {instanceID: 10822}
+      Script: {instanceID: 10780}
     - Class: 114
-      Script: {instanceID: 10876}
+      Script: {instanceID: 10824}
     - Class: 114
-      Script: {instanceID: 10958}
+      Script: {instanceID: 10878}
     - Class: 114
-      Script: {instanceID: 10998}
+      Script: {instanceID: 10960}
     - Class: 114
-      Script: {instanceID: 11022}
+      Script: {instanceID: 11000}
     - Class: 114
-      Script: {instanceID: 11098}
+      Script: {instanceID: 11024}
     - Class: 114
-      Script: {instanceID: 11186}
+      Script: {instanceID: 11100}
     - Class: 114
-      Script: {instanceID: 11282}
+      Script: {instanceID: 11188}
     - Class: 114
-      Script: {instanceID: 11464}
+      Script: {instanceID: 11284}
     - Class: 114
-      Script: {instanceID: 11544}
+      Script: {instanceID: 11466}
     - Class: 114
-      Script: {instanceID: 11610}
+      Script: {instanceID: 11546}
     - Class: 114
-      Script: {instanceID: 11784}
+      Script: {instanceID: 11612}
     - Class: 114
-      Script: {instanceID: 12068}
+      Script: {instanceID: 11786}
     - Class: 114
-      Script: {instanceID: 12118}
+      Script: {instanceID: 12070}
     - Class: 114
-      Script: {instanceID: 12156}
+      Script: {instanceID: 12120}
     - Class: 114
-      Script: {instanceID: 12260}
+      Script: {instanceID: 12158}
     - Class: 114
       Script: {instanceID: 12262}
     - Class: 114
-      Script: {instanceID: 12294}
+      Script: {instanceID: 12264}
     - Class: 114
-      Script: {instanceID: 12306}
+      Script: {instanceID: 12296}
     - Class: 114
-      Script: {instanceID: 12636}
+      Script: {instanceID: 12308}
     - Class: 114
-      Script: {instanceID: 12974}
+      Script: {instanceID: 12638}
     - Class: 114
-      Script: {instanceID: 13100}
+      Script: {instanceID: 13102}
     - Class: 114
-      Script: {instanceID: 13190}
+      Script: {instanceID: 13192}
     - Class: 114
-      Script: {instanceID: 13258}
+      Script: {instanceID: 13260}
     - Class: 114
-      Script: {instanceID: 13300}
+      Script: {instanceID: 13302}
     - Class: 114
-      Script: {instanceID: 13372}
+      Script: {instanceID: 13374}
     - Class: 114
-      Script: {instanceID: 13432}
-    - Class: 114
-      Script: {instanceID: 18168}
+      Script: {instanceID: 13434}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -493,6 +490,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.RenderPipelines.Lightweight.Runtime.dll
     namespaceName: UnityEngine.Rendering.LWRP
     className: LWRPAdditionalCameraData
+  - hash:
+      serializedVersion: 2
+      Hash: 23873afa6c9abb709ae4c344568b495c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Shotgun
   - hash:
       serializedVersion: 2
       Hash: aba7b2852ef61d175dd9602e7723d5e5
@@ -831,7 +834,7 @@ ScriptsOnlyBuild:
     className: HorizontalLayoutGroup
   - hash:
       serializedVersion: 2
-      Hash: 6fd3b56903224be1c8f199d095e65ed1
+      Hash: 5e45902be07de0603fd591dfef6ea916
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: SceneMenager
@@ -1125,17 +1128,11 @@ ScriptsOnlyBuild:
     className: PlayableTrack
   - hash:
       serializedVersion: 2
-      Hash: afbca62f83ef8382b90336180e166118
+      Hash: 70a0d1ad20c611ca406717497b04f644
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: GunDefinition
-  - hash:
-      serializedVersion: 2
-      Hash: 9cee3dda8f8f6afc8c58b4c1678f8846
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Shotgun
   platform: 19
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: G:/UnityProjects/TopDownShooter02/TopDownShooter.02/Build/TopDownShooter.02.exe
+  playerPath: C:/GOG/UnityHub/Projects/TopDownShooter/TopDownShooter.02/Build/TopDownShooter.02.exe

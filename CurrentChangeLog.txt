@@ -1,0 +1,6 @@
+- ammo economy
+- zamiana broni 1,2,3 na dziedziczenie z GunDefinition
+- zmniejszenie areny
+- przyspieszenie zombie
+- celowanie przed wysrzalem
+- chodzenie w danym kierunku + brak mozliwosci celowania (Teleglitch)
