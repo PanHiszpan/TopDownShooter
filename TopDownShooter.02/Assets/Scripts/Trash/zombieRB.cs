@@ -45,7 +45,7 @@ public class zombieRB : MonoBehaviour {
             //bierze losowe (0-max liczba) dziecko z listy wsystkich dzieci, ustawia na pozycji zombiaka i daje losowa rotacje (zeby wygladaly na rozne)
             Instantiate(blood_FX.transform.GetChild(Random.Range(0, blood_FX.transform.childCount)), transform.position, Quaternion.Euler(0, 0, Random.Range(0, 360)));
             //dropi bonusy
-            dropRandom.IfDrop();
+            dropRandom.Drop();
             //niszczy zombiaka
             Destroy(gameObject);
         }

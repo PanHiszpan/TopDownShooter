@@ -1,6 +1,7 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - AmmoUP
     - AreaGunRC
     - Arsenal
     - BloodBigger
@@ -155,6 +156,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 13374}
     - Class: 114
       Script: {instanceID: 13434}
+    - Class: 114
+      Script: {instanceID: 18164}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -522,7 +525,7 @@ ScriptsOnlyBuild:
     className: Shadow
   - hash:
       serializedVersion: 2
-      Hash: d85d348509334213b148c478bb019ada
+      Hash: 59588ca7cdb179593d319ef75ab58d6e
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: DropRandom
@@ -822,7 +825,7 @@ ScriptsOnlyBuild:
     className: CinemachineMixingCamera
   - hash:
       serializedVersion: 2
-      Hash: 2b5a2538af06bff1be1ef28a7cdffe85
+      Hash: 46f52adcc255a3ea8619541b608f7e99
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: HealthUP
@@ -1132,6 +1135,18 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: GunDefinition
+  - hash:
+      serializedVersion: 2
+      Hash: 1358402e1e3e53165311b2fbacf447a8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: AmmoUP
+  - hash:
+      serializedVersion: 2
+      Hash: 5302d4225de2b7f3ec5af2a66a270725
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PickupDefinition
   platform: 19
   scenePathNames:
   - Assets/Scenes/SampleScene.unity

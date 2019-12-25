@@ -2,14 +2,15 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class HealthUP : MonoBehaviour
+public class HealthUP : PickupDefinition
 {
     public int healthUp;
-    private void OnTriggerEnter2D(Collider2D other)
+    protected virtual void OnTriggerEnter2D(Collider2D other)
     {
         player player = other.GetComponent<player>();
         if (player != null)
         {
+            Debug.Log(pickupText); //zrob text nad pickupem, pare sec i znika
             player.takeHealth(healthUp);
         }
     }

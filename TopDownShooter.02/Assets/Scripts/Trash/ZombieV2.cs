@@ -91,7 +91,7 @@ public class ZombieV2 : MonoBehaviour
             Instantiate(blood_FX.transform.GetChild(Random.Range(0, blood_FX.transform.childCount)), transform.position, Quaternion.Euler(0, 0, Random.Range(0, 360)));
             //Instantiate(killedFX, transform.position + new Vector3(0, 0, 3), Quaternion.identity);
             //dropi bonusy
-            dropRandom.IfDrop();
+            dropRandom.Drop();
             //niszczy zombiaka
             Destroy(gameObject); 
         }

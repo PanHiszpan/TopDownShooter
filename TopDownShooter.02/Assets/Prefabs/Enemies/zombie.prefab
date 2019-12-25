@@ -118,8 +118,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   chance: 0.1
   dropList:
-  - {fileID: 1391511303865123891, guid: 5235cf1de4d7cd443ab84fad966e208d, type: 3}
   - {fileID: 4575237636315839188, guid: 499f0b0ba21fb3b468ab1f54304137a4, type: 3}
+  - {fileID: 1391511303865123891, guid: 5235cf1de4d7cd443ab84fad966e208d, type: 3}
+  - {fileID: 4915839346672127501, guid: f675bd2397185f64ca511657a71aa8b1, type: 3}
+  - {fileID: 7583452742197602902, guid: 18cc72931f53fbc49940e5617e4ba4ff, type: 3}
 --- !u!58 &5888566604276659540
 CircleCollider2D:
   m_ObjectHideFlags: 0

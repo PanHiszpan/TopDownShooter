@@ -134,6 +134,11 @@ public class GunDefinition : MonoBehaviour
 
     }
 
+    public void PickedAmmo()
+    {
+        sceneMenager.setAmmoAll(ammoAll);
+    }
+
     void OnEnable()
     {
         sceneMenager = FindObjectOfType<SceneMenager>();

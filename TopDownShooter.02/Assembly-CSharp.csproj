@@ -63,11 +63,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\Level\AmmoUP.cs" />
     <Compile Include="Assets\Scripts\Level\DealDMG.cs" />
     <Compile Include="Assets\Scripts\Level\DieAfterTime.cs" />
     <Compile Include="Assets\Scripts\Level\DieOnContact.cs" />
     <Compile Include="Assets\Scripts\Level\DropRandom.cs" />
     <Compile Include="Assets\Scripts\Level\HealthUP.cs" />
+    <Compile Include="Assets\Scripts\Level\PickupDefinition.cs" />
     <Compile Include="Assets\Scripts\Level\SceneMenager.cs" />
     <Compile Include="Assets\Scripts\Level\SpawnerV2.cs" />
     <Compile Include="Assets\Scripts\Level\Tracer.cs" />

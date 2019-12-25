@@ -9,7 +9,7 @@
 
 - w koncu zmien grafiki na pixelart (16x16bit brzmi ok)
 - dynamiczny celownik
-- dokoncz resze broni z dziedziczenia GunDefinition (pistol na pewno)
+- dokoncz resze broni z dziedziczenia GunDefinition // 3 podst dzialaja
 - optymalizacja krwi i jej particli (1 plama rozlana z kierunku trafienia, zobacz notke)
 - fale (100 zielone zombie w 1, 1000? Ziel+zolt w 2, zolt+czerw w3 itd) // trodniejsze zombie w kolejnych falach
 //w AS raycast do kursora z overlapcircle ale RC zatzymuje sie tylko na wiekszych przeciwnikach, reszte igrnoruje (tak jakby sam overlapCircle na kursorze)
@@ -17,6 +17,6 @@
 - dzialko zamrazajace
 - pajaki, plucie kwasem etc.
 - barykady i wyszukiwanie drogi (obczaj navmesh)
-- drop broni i bonusow
+- drop broni i bonusow //ammo jest, dac startowe na 0 + przy 0 zablokowac wybor danej broni
 - sklep co runde?
 - fala zombi w nocy -> fortyfikowanie i sklep w dzien, repeat

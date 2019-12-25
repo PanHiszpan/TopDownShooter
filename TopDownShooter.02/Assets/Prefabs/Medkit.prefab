@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 746171919891331117}
   - component: {fileID: 471351539322117495}
   m_Layer: 2
-  m_Name: New Sprite 1
+  m_Name: Medkit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -49,6 +49,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77d70b1a30c907249adea7dc518c924b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pickupText: Health UP!
+  chanceToDrop: 0.1
   healthUp: 10
 --- !u!114 &6875076697924579056
 MonoBehaviour:

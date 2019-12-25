@@ -1,4 +1,6 @@
 - ammo economy
+- ammo pickups
+- zmiana drop random na losowanie dla kazdego z listy
 - zamiana broni 1,2,3 na dziedziczenie z GunDefinition
 - zmniejszenie areny
 - przyspieszenie zombie

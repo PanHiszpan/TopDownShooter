@@ -48,7 +48,7 @@ public class Zombie : MonoBehaviour
             //spawnuje particle
             Instantiate(killedFX, transform.position + new Vector3(0,0,3), Quaternion.LookRotation(dir));
             //dropi bonusy
-            dropRandom.IfDrop();
+            dropRandom.Drop();
             //niszczy zombiaka
             Destroy(gameObject);
         }
